@@ -1,0 +1,26 @@
+.listBtn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.itemBtn {
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  background-color: #c5c5c5;
+  box-shadow: none;
+  transition: all 250ms ease-in-out;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.itemBtn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}

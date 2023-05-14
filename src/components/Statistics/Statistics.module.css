@@ -1,0 +1,23 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.item {
+  color: #0e0e0e;
+}
+
+.item__green {
+  color: #4caf50;
+}
+
+.item__blue {
+  color: #008cba;
+}
+
+.item__red {
+  color: #f44336;
+}
